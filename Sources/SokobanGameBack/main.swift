@@ -3,7 +3,7 @@ import PerfectHTTP
 import PerfectHTTPServer
 
 let server = HTTPServer()
-server.serverPort = 8080
+server.serverPort = 3000
 
 server.addRoutes(setupRouter())
 
